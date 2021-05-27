@@ -1,0 +1,8 @@
+# docker-compose.yml
+version: '3.5'
+
+services:
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6364:6379"
